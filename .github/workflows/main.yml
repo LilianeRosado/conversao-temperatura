@@ -18,20 +18,21 @@ jobs:
     # O tipo de executor em que o trabalho será executado
     runs-on: ubuntu-latest
     
-      # As etapas representam uma sequência de tarefas que serão executadas como parte do trabalho
-      steps:
+    # As etapas representam uma sequência de tarefas que serão executadas como parte do trabalho
+    steps:
         # Faz check-out do seu repositório em $GITHUB_WORKSPACE, para que seu trabalho possa acessá-lo
-        - users: action/chekout@v2
+        - uses: action/chekout@v2
 
-        #  Execute um único comando usando o shell dos executores
+        # Execute um único comando usando o shell dos executores
         - name: Run a one-line script
-        run: echo Hello, word
+          run: echo Hello, word
 
         # Execute um conjunto de comandos usando o shell runners
         - name: Run a multi-line script
-        run: 
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          run: 
+            echo Add other actions to build,
+            echo test, and deploy your project.
+      
 
 
 

@@ -7,6 +7,8 @@ on:
   # Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para a ramificação principal
   push: 
      branches: [ main ]
+  pull_request:
+     branches: [ main ]
 
   # Permite que você execute este fluxo de trabalho manualmente na guia Ações
   workflow_dispatch:

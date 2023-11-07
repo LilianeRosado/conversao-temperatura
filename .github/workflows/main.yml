@@ -1,4 +1,4 @@
-# Este é um fluxo de trabalho básico para ajudá-lo a começar a usar o Actions
+#0 Este é um fluxo de trabalho básico para ajudá-lo a começar a usar o Actions
 
 name: CI
 
@@ -33,7 +33,9 @@ jobs:
              cd src;
              npm install -g mocha;
              npm install
-             
+
+        - name: Execução do teste
+          run: mocha src/test/convert.js
  
       
 

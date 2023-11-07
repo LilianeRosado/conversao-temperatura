@@ -43,7 +43,7 @@ jobs:
           uses: docker/build-push-action@v5.0.0
           with:      
             contest: src
-            file: src/Dockerfile
+            file: Dockerfile
             push: true
             tags: LilianeRosado/aula-conversao-temperatura:v1
                   LilianeRosado/aula-conversao-temperatura:latest

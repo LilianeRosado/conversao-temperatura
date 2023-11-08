@@ -45,8 +45,8 @@ jobs:
             contest: ./src
             file: ./src/Dockerfile
             push: true
-            tags: fabricioveronez/aula-conversao-temperatura:v1
-                  fabricioveronez/aula-conversao-temperatura:latest
+            tags: lilianerosado/aula-conversao-temperatura:v1
+                  lilianerosado/aula-conversao-temperatura:latest
                   
 
 

@@ -54,8 +54,8 @@ jobs:
             file: ./src/Dockerfile
             push: true
             tags: 
-              lilianerosado/aula-conversao-temperatura:${{github.run.number}}
-              
+              lilianerosado/aula-conversao-temperatura:${{github.run_number}}
+              lilianerosado/aula-conversao-temperatura:latest
               
 
 

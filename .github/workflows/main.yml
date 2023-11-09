@@ -53,8 +53,8 @@ jobs:
             contest: ./src
             file: ./src/Dockerfile
             push: true
-            tags: lilianerosado/aula-conversão-temperatura:latest
-                  lilianerosado/aula-conversão-temperatura:v1
+            tags: lilianerosado/aula-conversao-temperatura:v1
+                  lilianerosado/aula-conversao-temperatura:latest
                   
 
 

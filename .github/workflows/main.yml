@@ -55,7 +55,7 @@ jobs:
             push: true
             tags: 
               lilianerosado/aula-conversao-temperatura:v1
-              lilianerosado/aula-conversao-temperatura:latest
+              
 
 
 

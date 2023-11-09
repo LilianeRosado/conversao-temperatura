@@ -55,7 +55,6 @@ jobs:
             push: true
             tags: 
               lilianerosado/aula-conversao-temperatura:${{github.run_number}}
-              lilianerosado/aula-conversao-temperatura:latest
               
 
 

@@ -50,11 +50,11 @@ jobs:
           # uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09
           uses: docker/build-push-action@v5.0.0
           with:      
-            contest: ./src
+            context: ./src
             file: ./src/Dockerfile
             push: true
-            tags: ./aula-conversao-temperatura:v1
-                  ./aula-conversao-temperatura:latest
+            tags: lilianerosado/aula-conversao-temperatura:v1
+                  lilianerosado/aula-conversao-temperatura:latest
 
 
 
